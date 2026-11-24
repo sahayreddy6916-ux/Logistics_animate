@@ -1,5 +1,0 @@
-logistics_animations is a collection of animated visualizations that explain how logistics and supply chain systems work. The project covers inventory flow, warehouse operations, order fulfillment, transportation, routing, and last-mile delivery. Each animation focuses on a specific process and shows how goods, vehicles, and information move through a logistics network over time.
-
-The goal is to make logistics concepts easier to understand by replacing static diagrams with clear, dynamic examples. The animations are useful for students learning supply chain fundamentals, educators explaining operational processes, and analysts exploring how changes in demand, capacity, or routing affect system performance.
-
-The project is built with modular code so that parameters can be adjusted and new scenarios can be added. Individual animations demonstrate receiving, put-away, storage, picking, packing, dispatch, transportation, and delivery. Together, they show logistics as a connected system rather than a set of separate steps.
