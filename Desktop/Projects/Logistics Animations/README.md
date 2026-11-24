@@ -1,20 +1,5 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+logistics_animations is a collection of animated visualizations that explain how logistics and supply chain systems work. The project covers inventory flow, warehouse operations, order fulfillment, transportation, routing, and last-mile delivery. Each animation focuses on a specific process and shows how goods, vehicles, and information move through a logistics network over time.
 
-# Run and deploy your AI Studio app
+The goal is to make logistics concepts easier to understand by replacing static diagrams with clear, dynamic examples. The animations are useful for students learning supply chain fundamentals, educators explaining operational processes, and analysts exploring how changes in demand, capacity, or routing affect system performance.
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/e4ba29d7-2de0-418e-a358-f2a929541f04
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+The project is built with modular code so that parameters can be adjusted and new scenarios can be added. Individual animations demonstrate receiving, put-away, storage, picking, packing, dispatch, transportation, and delivery. Together, they show logistics as a connected system rather than a set of separate steps.
