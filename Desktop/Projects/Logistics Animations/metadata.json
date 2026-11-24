@@ -1,0 +1,6 @@
+{
+  "name": "United Carriers — APAC Freight & Logistics",
+  "description": "Scroll-driven interactive freight, reach-stacker, fleet, ocean vessel, and air cargo logistics showcase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

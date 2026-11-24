@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Outfit', sans-serif;
+    --font-sans: 'DM Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: auto;
+    background-color: #ECEEF2;
+    color: #111318;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono-tabular {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@keyframes wakeShimmer {
+  0%, 100% {
+    opacity: 0.72;
+    transform: translateY(0px) scaleX(1);
+  }
+  50% {
+    opacity: 0.95;
+    transform: translateY(4px) scaleX(1.03);
+  }
+}
+
+@keyframes seaSpray {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: -48;
+  }
+}
+
+.animate-wake {
+  animation: wakeShimmer 2.8s ease-in-out infinite;
+}
+
+.animate-spray {
+  animation: seaSpray 1.4s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-wake,
+  .animate-spray {
+    animation: none;
+  }
+}
